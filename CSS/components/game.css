@@ -1,0 +1,43 @@
+#game{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: whitesmoke;
+}
+
+#presentation_of_piece{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#li_parts_of_game {
+    font-size: 1.3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+
+li{
+    background-color: orange;  
+    color: black;
+    text-shadow: 1px 1px 10px red;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 1000px;
+    padding: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 125%;
+}
+
+#video2{
+    width: 75%;
+    border-radius: 10px;
+}
